@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+tw.com.chinalife.api.config.ApiProducerAutoConfiguration,tw.com.chinalife.api.config.ApiWebMvcConfigurer

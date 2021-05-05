@@ -1,0 +1,31 @@
+
+dependencies {
+    api project(':api-core')
+    implementation 'org.slf4j:slf4j-api'
+    implementation 'org.springframework.boot:spring-boot-autoconfigure'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'com.squareup.okhttp3:logging-interceptor'
+    implementation 'com.squareup.retrofit2:converter-jackson'
+    implementation 'com.squareup.retrofit2:retrofit'
+	compileOnly  'org.projectlombok:lombok:1.18.20'
+	implementation 'javax.validation:validation-api'	
+	
+    api 'com.fasterxml.jackson.core:jackson-databind' // Provide configured ObjectMapper.
+    //implementation 'org.springframework.boot:spring-boot-autoconfigure'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    
+    ///implementation 'org.springframework.boot:spring-boot-starter-validation'
+    //implementation 'org.slf4j:slf4j-api'
+    
+    implementation 'com.fasterxml.jackson.core:jackson-annotations'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    implementation 'com.fasterxml.jackson.module:jackson-module-parameter-names'
+    implementation 'com.google.guava:guava'
+    
+	//compileOnly  'org.projectlombok:lombok:1.18.20'
+
+    //compileOnly 'javax.validation:validation-api'	
+	annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testImplementation 'com.fasterxml.jackson.module:jackson-module-parameter-names'
+    testImplementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'	
+}
